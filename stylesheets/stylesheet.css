@@ -95,6 +95,7 @@ h6 {
 
 p {
   margin: 10px 0 15px 0;
+  text-indent: 2em;
 }
 
 footer p {
@@ -148,13 +149,14 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
-p img {
+img {
   display: inline;
   margin: 0;
   padding: 0;
   vertical-align: middle;
   text-align: center;
   border: none;
+  text-indent: 2em;
 }
 
 pre, code {
@@ -227,7 +229,7 @@ dl p {
 }
 
 hr {
-  height: 1px;
+  height: 2px;
   margin-bottom: 5px;
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
@@ -236,7 +238,7 @@ hr {
 table {
   border: 1px solid #373737;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
  }
 
 th {
@@ -248,7 +250,9 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  text-align: center;
+  border: 1.5px solid #373737;
+  min-width: 90px;
  }
 
 form {
